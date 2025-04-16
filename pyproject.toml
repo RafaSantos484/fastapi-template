@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi-template"
+name = "app"
 version = "0.1.0"
 description = ""
 authors = ["rafael.santos <rafaelsantos32141@gmail.com>"]
@@ -11,7 +11,7 @@ fastapi = "^0.115.12"
 uvicorn = "^0.34.1"
 
 [tool.poetry.scripts]
-start = "fastapi_template:main"
+start = "app:main"
 
 [build-system]
 requires = ["poetry-core"]

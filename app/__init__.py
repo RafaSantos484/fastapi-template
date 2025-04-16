@@ -20,6 +20,6 @@ def hello_world():
 
 
 def main():
-    uvicorn.run("fastapi_template:app",
+    uvicorn.run("app:app",
                 port=8000,
                 reload=True)
